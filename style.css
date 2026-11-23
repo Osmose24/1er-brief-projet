@@ -90,7 +90,7 @@ header p {
 }
 
 .n1{
-    display: flex
+    display: flex;
     padding-left: 1190px;
     padding-bottom: 20px;
     font-size: 24px;
