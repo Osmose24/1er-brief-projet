@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*partie accueil.html*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5f4ee;
+}
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #8CB83E;
+    padding: 15px 40px;
+    height: 110px;
+justify-content: space-between;
+}
+
+header h1 {
+    position: absolute;
+    transform: translateX(650px) translateY(-70px);
+    margin: 0;
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Berkshire Swash', cursive;
+
+}
+
+.logo img {
+    height: 80px;
+    display: block;
+}
+
+.hero-texte h2 {
+    transform: translateX(30px) translateY(100px);
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    color: #362e18;
+
+}
+
+.hero-texte p {
+    transform: translateX(30px) translateY(100px);
+    font-size: 18px;
+    line-height: 1.4;
+    color: #362e18
+}
+
+.hero-texte {
+    flex: 1;
+    min-height: calc(100vh - 110px);
+    background-image: url(logo\ accueil.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.hero-texte button {
+    background-color: #8CB83E;
+    color: #2b2618;
+    border: none;
+    padding: 14px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 15);
+    transition: transform 0.2s, background-color 0.2;
+}
+
+.kkj {
+    transform: translateX(1300px) translateY(400px)
+}
+
+header p {
+    position: absolute;
+    transform: translateX(650px) translateY(-70px);
+    margin: 0;
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.n1{
+    display: flex
+    padding-left: 1190px;
+    padding-bottom: 20px;
+    font-size: 24px;
+   
+}
+.n1 a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    display: flex;
+    padding-left: 1000px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    gap: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+#knz{
+font-family: 'Berkshire Swash', cursive;
+text-align: center;
+font-size: 26px;
+margin-bottom: 35px;
+}
+
+/*partie historique.html*/
+.joli{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 40px 80px;
+   width: 90%;
+   max-width: 1400px;
+   margin: 40px auto ;
+}
+
+
+.vitrice{
+    
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 25px;
+    padding: 20px 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, alph0.05);
+    background-color: #fafafa;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "0 0 0";
+    grid-gap: 30px;
+    grid-auto-rows: 100px;
+    justify-self: center;
+    box-sizing: border-box;
+}
+.vitrice .image-ovale{
+    
+    width: 160px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.vitrice h2{
+margin: 5px 0;
+font-size: 32px;
+}
+.vitrice p{
+    margin-bottom: 5px 0;
+    font-size: 20px;
+}
+.vitrice .bouton{
+    margin: 5px 0;
+    display: inline-block;
+    background-color: #789d2a;
+    color: white;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    width: fit-content;
+    font-size: 0.9rem;
+}
+.bouton:hover{
+    background-color: #628220;
+    opacity: 0.9;
+}
+.vitrice .Oracle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/*partie algue.html*/
+.jolie{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 30px auto 15px auto;
+}
+
+.virginie{
+    flex: 1;
+    background-color: #8CB83E;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.virginie img{
+    width: 100%;
+    max-height: 320px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+    .description{
+        width:100%;
+        text-align: center;
+        margin: 25px;
+        font-size: 20px;
+    }
+header .n1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+header .n1 a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
