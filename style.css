@@ -80,14 +80,6 @@ header h1 {
     transform: translateX(1300px) translateY(400px)
 }
 
-header p {
-    position: absolute;
-    transform: translateX(650px) translateY(-70px);
-    margin: 0;
-    font-size: 42px;
-    font-weight: bold;
-    font-family: 'Berkshire Swash', cursive;
-}
 
 .n1{
     display: flex;
